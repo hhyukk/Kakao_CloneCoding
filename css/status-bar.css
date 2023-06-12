@@ -1,0 +1,26 @@
+/* status-bar의 요소들을 같은 줄에 놓도록 함 */
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.status-bar__column {
+  width: 33%;
+}
+
+/* No Service와 wifi 아이콘 사이의 공간을 줌 */
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
