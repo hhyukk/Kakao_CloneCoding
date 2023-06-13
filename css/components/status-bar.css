@@ -15,10 +15,11 @@
 }
 /* status-bar의 요소들을 같은 줄에 놓도록 함 */
 .status-bar {
-  position: fixed;
+  display: flex;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
+  /* 200픽셀의 박스에 50픽셀의 패딩을 주면, css는 기존 박스의 가로를 유지하기 위해 50만큼 박스를 늘림 -> 총 250px이 됨 */
+  /* box-sizing:border-box를 쓰면 box의 크기를 유지한 채 padding을 줄 수 있다.-> 패딩 50픽셀, 박스 150픽셀로 총 200px */
   justify-content: center;
   padding: 5px 3px;
 }
