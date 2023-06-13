@@ -1,0 +1,40 @@
+#login-form {
+  display: flex;
+  flex-direction: column; /* login-form 세로 정렬 */
+  margin: 0px 30px;
+}
+#login-form input {
+  padding: 15px 0px;
+  border: none; /* input의 아웃라인을 제거 하기 위함 */
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* login-form class의 type이 submit이 아닌 input에 적용 */
+#login-form input:not([type="submit"]) {
+  /* not은 뭔가가 적용되는 걸 원하지 않을 때 사용 */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s;
+  /* broder-color의 변화를 0.3초에 걸쳐 보여줌*/
+  /* transition은 psuedo selector가 붙지 않은 곳에 써야함 */
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+  /* border-color를 변수 --yellow의 색으로 함 */
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer; /* 마우스 커서 변경 */
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+#login-form a {
+  text-align: center;
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: inherit;
+  /*link는 default가 blue color임 */
+  /* inherit을 사용하여 부모의 색을 상속받음 */
+  font-size: 13px;
+}

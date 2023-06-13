@@ -1,3 +1,18 @@
+.welcome-header {
+  margin: 90px 0px; /* header 상하에 90px 적용 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  display: flex; /* 요쇼들을 센터로 만들어야 함 */
+  flex-direction: column; /* 요소들을 좌우가 아닌 상하로 만듦 */
+  align-items: center; /* 교차축을 이용하여 센터에 위치하게 함 */
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7; /* 불투명도 */
+}
 /* status-bar의 요소들을 같은 줄에 놓도록 함 */
 .status-bar {
   display: flex;
