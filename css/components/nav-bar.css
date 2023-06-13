@@ -1,8 +1,12 @@
 .nav {
+  position: fixed; /* 원하는 곳에 뭔가가 계속 있기를 바랄 때 사용 */
+  bottom: 0;
+  width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 40px;
+  padding: 20px 50px;
+  box-sizing: border-box; /*아이콘 한 줄로 보이게 함 */
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
-
 .nav__list {
   display: flex;
   justify-content: space-between;

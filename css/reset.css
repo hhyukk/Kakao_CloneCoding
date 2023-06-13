@@ -124,6 +124,11 @@ table {
 }
 
 /* 모든 input이 클릭 되었을 때 아웃라인 제거 */
-input:focus{
+input:focus {
   outline: none;
+}
+/* 모든 링크의 color를 설정하고 밑줄 제거 */
+a {
+  color: #2e363e;
+  text-decoration: none;
 }
