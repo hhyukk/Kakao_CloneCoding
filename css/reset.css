@@ -122,3 +122,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* 모든 input이 클릭 되었을 때 아웃라인 제거 */
+input:focus{
+  outline: none;
+}
