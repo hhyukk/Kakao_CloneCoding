@@ -1,7 +1,6 @@
 .user-component {
   justify-content: space-between;
 }
-
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -43,4 +42,14 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+.user-component__text {
+  position: relative;
+}
+.user-component__text i {
+  position: absolute;
+  color: #fe5e4e;
+  right: -20px;
+  bottom: 0px;
+  font-size: 15px;
 }

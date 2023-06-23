@@ -12,6 +12,8 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__icons .dot_relative {
   position: relative;
 }
 .gear__dot {
