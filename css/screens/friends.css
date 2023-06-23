@@ -6,7 +6,6 @@
   font-size: 18px;
   margin-bottom: 15px;
   margin-top: -15px; /* screnn-header에서 margin-bottom을 15px 줬기 때문에 이 부분에만 margin-top -를 적용 */
-  
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
@@ -16,7 +15,7 @@
 }
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
