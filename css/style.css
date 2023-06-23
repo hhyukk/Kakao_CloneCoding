@@ -8,12 +8,15 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/dot.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
+  height: 1000vh;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
