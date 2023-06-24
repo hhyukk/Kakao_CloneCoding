@@ -42,6 +42,25 @@
     <main class="main-screen main-chat">
       <!-- main-screen class는 양 옆에 padding을 주는 css가 들어있고 동시에 chat class는 해당 화면에서 적용할 css를 반영 -->
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img src="/image/b.png" />
+        <div class="message-row__content">
+          <span class="message_author">홍길동</span>
+          <div class="message-info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-info">
+            <span class="message__bubble">Hi nice to meet you!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script
