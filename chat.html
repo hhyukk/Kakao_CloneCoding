@@ -39,8 +39,8 @@
       </div>
     </header>
 
+    <!-- main-screen class는 양 옆에 padding을 주는 css가 들어있고 동시에 main-chat class는 해당 화면에서 적용할 css를 반영 -->
     <main class="main-screen main-chat">
-      <!-- main-screen class는 양 옆에 padding을 주는 css가 들어있고 동시에 chat class는 해당 화면에서 적용할 css를 반영 -->
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
       <div class="message-row">
         <img src="/image/b.png" />
@@ -63,6 +63,18 @@
       </div>
     </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile-wink"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/2194726cd1.js"
       crossorigin="anonymous"
