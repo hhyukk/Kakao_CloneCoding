@@ -1,0 +1,17 @@
+.alt-header {
+  padding: 60px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+/* 중앙정렬 */
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+}
