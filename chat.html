@@ -7,7 +7,7 @@
     <title>Chat w/ Choi - Kokoa Clone</title>
   </head>
 
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -26,7 +26,7 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
           <i class="fa-solid fa-angle-left fa-3x"></i>
         </a>
       </div>
@@ -39,8 +39,11 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
-    <!-- fa-solid는 속이 찬, fa-regular는 속이 빈 이모티콘을 말함 -->
+    <main class="main-screen main-chat">
+      <!-- main-screen class는 양 옆에 padding을 주는 css가 들어있고 동시에 chat class는 해당 화면에서 적용할 css를 반영 -->
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/2194726cd1.js"
       crossorigin="anonymous"

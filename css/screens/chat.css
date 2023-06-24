@@ -1,0 +1,22 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+.main-chat {
+  margin-top: 160px;
+}
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  background-color: #abc1d1;
+}
+#chat-screen .status-bar {
+  z-index: 2;
+  /* div가 있는 위치가 맨 앞에서부터 몇 번째인지를 나타낸다.
+  숫자가 낮으면 밑에 있는 layer 클수록 위에 있는 layer*/
+}
