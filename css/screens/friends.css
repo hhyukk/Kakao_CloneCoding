@@ -25,7 +25,16 @@
   align-items: center;
   color: rgba(0, 0, 0, 0.5);
 }
-
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+    visibility: hidden;
+    /* visibility: hidden은 마우스에 걸리지 않게 빠져버리는 것(따라서 클릭이 가능함, html은 여전히 존재) */
+  }
+}
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
@@ -37,4 +46,8 @@
   justify-content: center;
   align-items: center;
   font-size: 132px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  /* forwards는 마지막 속성 값(마지막 keyframes)을 애니메이션이 끝나고 계속 유지시킴  */
+  animation-delay: 3s;
+  /* animation이 2초 뒤에 일어나게 delay 시켜줌 */
 }
