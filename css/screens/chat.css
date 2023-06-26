@@ -116,18 +116,18 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: -23px;
+  top: 3px;
 }
 .reply__column:last-child > i {
-  right: 40px;
-  top: 10px;
+  right: 30px;
+  top: 20px;
 }
 .reply__column button {
   background-color: var(--yellow);
   border: none;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 .reply__column button i {
