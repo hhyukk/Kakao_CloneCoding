@@ -25,3 +25,16 @@
   align-items: center;
   color: rgba(0, 0, 0, 0.5);
 }
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /* 100vh는 화면 높이의 100%, 100vw는 화면 너비의 100%이다. */
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+}
