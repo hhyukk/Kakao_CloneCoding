@@ -31,10 +31,16 @@
       </p>
     </header>
 
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+    <form id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="password" type="password" required placeholder="Password" />
       <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
       <a href="#">Find Kakao Account or Password</a>
     </form>
 
@@ -43,6 +49,7 @@
     </div>
 
     <script src="/JS/clock.js"></script>
+    <script src="/JS/users.js"></script>
     <script
       src="https://kit.fontawesome.com/2194726cd1.js"
       crossorigin="anonymous"
