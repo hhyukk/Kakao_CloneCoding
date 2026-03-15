@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./css/style.css" />
@@ -39,13 +39,10 @@
     <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            src="./image/a.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
+          <img id="my-profile-img" src="./image/a.jpg" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Choi</h4>
-            <h6 class="user-component__subtitle">+82 1234-5678</h6>
+            <h4 id="my-profile-name" class="user-component__title">Loading...</h4>
+            <h6 id="my-profile-status" class="user-component__subtitle">+82 1234-5678</h6>
             <i class="fa-solid fa-circle-exclamation"></i>
           </div>
         </div>
@@ -113,9 +110,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
+          <a class="nav__link" href="find.html"> <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
@@ -126,14 +121,12 @@
       </ul>
     </nav>
     <!-- fa-solid는 속이 찬, fa-regular는 속이 빈 이모티콘을 말함 -->
-    
+
     <div id="no-mobile">
       <span>Your scren is Too big</span>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/2194726cd1.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/2194726cd1.js" crossorigin="anonymous"></script>
+    <script src="js/profile.js"></script>
   </body>
 </html>

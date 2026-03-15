@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./css/style.css" />
@@ -41,22 +41,17 @@
     </header>
 
     <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
-        class="fa-solid fa-chevron-right fa-xs"
-      ></i>
+      <i class="fa-solid fa-circle-info"></i>Friends' Names Display<i class="fa-solid fa-chevron-right fa-xs"></i>
     </a>
 
     <main class="friends-screen">
       <!-- 사진, name -->
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            src="./image/a.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
+          <img id="my-profile-img" src="./image/a.jpg" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Choi</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h4 id="my-profile-name" class="user-component__title">Loading...</h4>
+            <h6 id="my-profile-status" class="user-component__subtitle"></h6>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -69,14 +64,9 @@
         </div>
         <div class="user-component">
           <div class="user-component__column">
-            <img
-              src="./image/ch.png"
-              class="user-component__avatar user-component__avatar--sm"
-            />
+            <img src="./image/ch.png" class="user-component__avatar user-component__avatar--sm" />
             <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
+              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
             </div>
           </div>
           <div class="user-component__column">
@@ -92,9 +82,7 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
-          ></a>
+          <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
@@ -103,9 +91,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
+          <a class="nav__link" href="find.html"> <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
@@ -118,14 +104,12 @@
     <div id="splash-screen">
       <i class="fa-solid fa-comment"></i>
     </div>
-    
+
     <div id="no-mobile">
       <span>Your scren is Too big</span>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/2194726cd1.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/2194726cd1.js" crossorigin="anonymous"></script>
+    <script src="js/profile.js"></script>
   </body>
 </html>
